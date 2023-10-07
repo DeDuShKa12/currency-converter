@@ -1,0 +1,13 @@
+<div class="header" *ngIf="rates">
+  <h2>Курс валют</h2>
+  <div class="exchange-rates">
+    <div class="rateBox">
+      <h4>USD</h4>
+      <p>{{ (1 / rates.conversion_rates['USD']).toFixed(2) }} грн</p>
+    </div>
+    <div class="rateBox">
+      <h4>EUR</h4>
+      <p> {{ (1 / rates.conversion_rates['EUR']).toFixed(2) }} грн</p>
+    </div>
+  </div>
+</div>

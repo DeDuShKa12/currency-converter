@@ -1,0 +1,38 @@
+.header {
+  text-align: center;
+  background-color: #545b80;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 10vh;
+}
+
+h2 {
+  color: #0a0f17;
+  margin-bottom: 10px;
+  margin-left: 20px;
+}
+
+.exchange-rates {
+  display: flex;
+  width: 25vh;
+  justify-content: space-around;
+}
+
+.rateBox {
+  text-align: center;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background: #abcbe0;
+}
+
+h4 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+p {
+  font-size: 16px;
+  color: #0066ce;
+}
